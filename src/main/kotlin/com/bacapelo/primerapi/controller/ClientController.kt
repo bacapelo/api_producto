@@ -22,7 +22,7 @@ class ClientController {
         return clientService.save(client)
     }
     @PutMapping
-    fun upd0ate(@RequestBody client: Client): Client {
+    fun update(@RequestBody client: Client): Client {
         return clientService.update(client)
     }
     @PatchMapping

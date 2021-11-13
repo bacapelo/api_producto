@@ -25,7 +25,8 @@ class ClientService {
     @PutMapping
     fun update (client: Client): Client{
         return clientRepository.save(client)
-    }    @PatchMapping
+    }
+    @PatchMapping
 
     fun updateDescripcion(client: Client):Client {
         val response = clientRepository.findById(client.id)

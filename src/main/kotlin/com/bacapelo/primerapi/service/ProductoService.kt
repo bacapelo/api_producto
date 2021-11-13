@@ -26,7 +26,8 @@ class ProductoService {
     @PutMapping
     fun update (producto: Producto):Producto{
         return productoRepository.save(producto)
-    }    @PatchMapping
+    }
+    @PatchMapping
 
     fun updateDescripcion(producto: Producto):Producto{
         val response = productoRepository.findById(producto.id)
