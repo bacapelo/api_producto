@@ -1,6 +1,5 @@
 package com.bacapelo.primerapi.controller
 
-import com.bacapelo.primerapi.model.Client
 import com.bacapelo.primerapi.model.Producto
 import com.bacapelo.primerapi.service.ProductoService
 import org.springframework.beans.factory.annotation.Autowired

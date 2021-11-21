@@ -1,5 +1,4 @@
 package com.bacapelo.primerapi.service
-import com.bacapelo.primerapi.model.Client
 import com.bacapelo.primerapi.model.Producto
 import com.bacapelo.primerapi.repository.ProductoRepository
 import org.springframework.beans.factory.annotation.Autowired
@@ -7,7 +6,6 @@ import org.springframework.stereotype.Service
 import org.springframework.web.bind.annotation.PatchMapping
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.PutMapping
-import org.springframework.web.bind.annotation.RequestBody
 
 @Service
 class ProductoService {
